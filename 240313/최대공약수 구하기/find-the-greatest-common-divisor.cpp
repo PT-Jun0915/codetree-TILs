@@ -4,6 +4,7 @@ using namespace std;
 int gcd(int n, int m)
 {
 	int min{ (m > n ? n : m) };
+	if (min == 1) return 1;
 	while (min--)
 	{
 		if (m % min == 0 && n % min == 0)
