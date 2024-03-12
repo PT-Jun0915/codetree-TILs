@@ -5,12 +5,13 @@ int gcd(int n, int m)
 {
 	int min{ (m > n ? n : m) };
 	if (min == 1) return 1;
-	while (min--)
+	while(true)
 	{
 		if (m % min == 0 && n % min == 0)
 		{
 			return min;
 		}
+		--m;
 	}
 }
 
