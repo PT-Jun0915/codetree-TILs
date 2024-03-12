@@ -11,7 +11,7 @@ int gcd(int n, int m)
 		{
 			return min;
 		}
-		--m;
+		--min;
 	}
 }
 
