@@ -13,5 +13,5 @@ int main()
 
 	int n;
 	cin >> n;
-	cout << (is_true(n) ? "YES" : "NO");
+	cout << (is_true(n) ? "Yes" : "No");
 }
