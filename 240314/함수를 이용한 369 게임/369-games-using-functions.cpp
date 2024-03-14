@@ -5,7 +5,7 @@ bool Is_true(int n)
 {
 	while (n > 0)
 	{
-		if (n % 10 % 3 == 0 || n % 3 == 0) return true;
+		if (((n % 10 % 3 == 0) && n != 0)|| n % 3 == 0) return true;
 		n /= 10;
 	}
 	return false;
